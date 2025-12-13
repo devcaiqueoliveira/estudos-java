@@ -9,7 +9,6 @@ public class Main {
         funcionarios[1] = new Gerente(2, "Marcos", 1000, 15);
         funcionarios[2] = new Funcionario(3, "Bruno", 1000);
 
-
         for (Funcionario funcionario : funcionarios) {
             funcionario.printDetalhesFuncionario();
             funcionario.printSalarioTotal();
