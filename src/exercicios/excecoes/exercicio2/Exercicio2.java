@@ -1,5 +1,6 @@
-package exercicios.excecoes;
+package exercicios.excecoes.exercicio2;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exercicio2 {
@@ -13,6 +14,8 @@ public class Exercicio2 {
             System.out.println("Nome: " + nomes[indice]);
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Erro: Inidice invalido. Escolha um inidice menor." );
+        } catch (InputMismatchException e) {
+            System.out.println("Erro: Digite apenas números.");
         }
     }
 }

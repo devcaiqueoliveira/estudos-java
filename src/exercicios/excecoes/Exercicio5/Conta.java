@@ -1,4 +1,4 @@
-package exercicios.excecoes.personalizada;
+package exercicios.excecoes.Exercicio5;
 
 public class Conta {
     private double saldo = 100.0;
